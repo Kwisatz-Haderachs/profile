@@ -1,0 +1,104 @@
+body {
+  background-color: rgba(88, 88, 88, 0.9);
+  font-family: 'Open-sans', sans-serif;
+  font-weight: 300;
+}
+
+h1 {
+  color: rgba(22, 22, 22, 0.8);
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+}
+
+h2, h3 {
+  color: rgba(88, 88, 88, 0.7);
+  font-family: 'Open-sans', sans-serif;
+  font-weight: 400;
+  text-align: center;
+}
+
+p {
+  margin-bottom: 30px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.card {
+  background-color: rgba(250, 250, 250, 0.8);
+  width: 600px;
+  margin: 0 auto;
+  padding: 30px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  box-shadow: 4px 4px 4px rgba(40, 40, 40, 0.2);
+  border-color: rgba(20, 20, 20, 0.3);
+}
+
+.text-center {
+  text-align: center;
+}
+
+.btn-grey {
+  background-color: rgba(40, 40, 40, 0.5);
+  color: rgba(220, 220, 220, 0.8);
+  font-weight: bold;
+  font-size: 20px;
+  padding: 15px 30px;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.btn-grey:hover {
+  background-color: rgba(8, 8, 8, 0.5);
+  color: white;
+}
+
+.avatar {
+  width: 120px;
+  border-radius: 20%;
+}
+
+.list-inline {
+  list-inline: none;
+  padding-left: 0;
+}
+
+.list-inline li {
+  display: inline-block;
+  list-style-type: none;
+}
+
+.list-inline i {
+  font-size: 30px;
+}
+
+.list-inline a {
+  margin: 20px;
+  color: rgba(100, 100, 100, 0.8);
+  text-decoration: none;
+}
+
+.link a:hover {
+  color: white;
+}
+
+#sidebar {
+  position: fixed;
+  float: left;
+  height: 100%;
+  vertical-align: top;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  background-color: rgba(50, 50, 50, 0.8);
+}
+
+#sidebar a {
+  color: rgba(240, 240, 220, 0.9);
+  text-decoration: none;
+  line-height: 10;
+}
+
+#page-content {
+  margin-left: 100px;
+}
